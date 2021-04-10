@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #323031;
 }
 .nave-btn {
   font-size: 1rem;
@@ -10,15 +10,19 @@ body {
 }
 .nave-search {
   font-size: 1rem;
-  color: white;
+  color: yellow;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  background-color: blue;
+  background-color: black;
 }
-.nave-info {
+.nave-info-ul {
   font-size: 1.25rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  color: black;
+  color: yellow;
+  background-color: black;
+  margin-top: 0.5rem;
+}
+.nave-info {
   margin-top: 0.5rem;
 }

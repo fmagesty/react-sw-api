@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 const Naves = () => {
     const [nave, setNave] = useState('')
-    const [info, setInfo] = useState('Info das naves')
+    const [info, setInfo] = useState('')
 
     const FunctionFetchNaves = async () => {
         const response = await fetch('https://swapi.dev/api/starships/')
@@ -15,15 +15,14 @@ const Naves = () => {
         const response = await fetch(`https://swapi.dev/api/starships/`)
         const responseBody = await response.json();
         let result = responseBody.results[props]
-        return setInfo(Object.entries(result).map((items) => <li>{items}</li>));
-    }
-        // let resultKeys = Object.keys(result).map((infoKey, key) => <li key={key}>{infoKey}:</li>);
+        console.log(Object.entries(result)[props]);
 
-    
-    
+        return setInfo(Object.entries(result).map((items, key) => <li className="nave-info" key={key}>{items[0] + ' : ' + items[1]} </li>));
+        // return setInfo(Object.entries(result).map((items, key) => <li key={key}>{items}</li>));
+    }
     return (
         <div className="nav-bar">
-        <button className="nave-search" onClick={() => FunctionFetchNaves(nave)}>Clique para buscar as naves</button>
+        <button className="nave-search" onClick={() => FunctionFetchNaves(nave)}>Buscar as naves</button>
         <p>{nave}</p>
         <ul className="nave-info-ul">
             {info}
