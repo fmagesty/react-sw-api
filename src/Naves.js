@@ -18,7 +18,6 @@ const Naves = () => {
         console.log(Object.entries(result)[props]);
 
         return setInfo(Object.entries(result).map((items, key) => <li className="nave-info" key={key}>{items[0] + ' : ' + items[1]} </li>));
-        return setInfo(Object.entries(result).map((items, key) => <li key={key}>{items}</li>));
     }
     return (
         <div className="nav-bar">
