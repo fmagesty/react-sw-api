@@ -1,22 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+
 body {
   background-color: #323031;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
 }
 .nave-btn {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: yellow;
   background-color: black;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 .nave-search {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: yellow;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   background-color: black;
 }
 .nave-info-ul {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   color: yellow;
@@ -25,4 +33,24 @@ body {
 }
 .nave-info {
   margin-top: 0.5rem;
+  text-align: left;
+}
+.footer {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.github {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35rem;
+}
+#github-icon {
+  color: white;
+  margin-left: 1rem;
 }
