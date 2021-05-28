@@ -14,31 +14,31 @@ function App() {
     <Router>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="/react-sw-api/">
-            <Link to="/react-sw-api/">Home</Link>
+          <Navbar.Brand href="/react-sw-api">
+            <Link to="/react-sw-api">Home</Link>
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Link to="/ships">Ships</Link>
-            <Link to="/Characters">Characters</Link>
-            <Link to="/planets">Planets</Link>
+            <Link to="/react-sw-api/ships">Ships</Link>
+            <Link to="/react-sw-api/character">Characters</Link>
+            <Link to="/react-sw-api/planets">Planets</Link>
           </Nav>
         </Container>
       </Navbar>
       <div className="App">
         <Switch>
-          <Route exact path="/react-sw-api/">
+          <Route exact path="/react-sw-api">
             <Homepage />
             <Footer />
           </Route>
-          <Route path="/ships">
+          <Route path="react-sw-api/ships">
             <Ships />
             <Footer />
           </Route>
-          <Route path="/Characters">
+          <Route path="react-sw-api/characters">
             <Characters />
             <Footer />
           </Route>
-          <Route path="/planets">
+          <Route path="react-sw-api/planets">
             <Planets />
             <Footer />
           </Route>
