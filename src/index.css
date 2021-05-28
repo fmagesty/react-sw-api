@@ -9,21 +9,29 @@ body {
   justify-content: center;
   font-family: "Montserrat", sans-serif;
 }
-.nave-btn {
+.nave-btn,
+.people-btn,
+.planets-btn {
   font-size: 1.5rem;
   color: yellow;
   background-color: black;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-.nave-search {
+.nave-search,
+.people-search,
+.planets-search {
   font-size: 1.5rem;
   color: yellow;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   background-color: black;
 }
-.nave-info-ul {
+.nave-info-ul,
+.people-info-ul,
+.planets-info-ul {
   font-size: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -31,7 +39,9 @@ body {
   background-color: black;
   margin-top: 0.5rem;
 }
-.nave-info {
+.nave-info,
+.people-info,
+.planets-info {
   margin-top: 0.5rem;
   text-align: left;
 }
@@ -47,10 +57,13 @@ body {
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: 35rem;
+  justify-content: flex-end;
 }
 #github-icon {
   color: white;
   margin-left: 1rem;
+}
+a {
+  color: white;
+  margin-right: 1rem;
 }
