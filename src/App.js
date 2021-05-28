@@ -19,7 +19,7 @@ function App() {
           </Navbar.Brand>
           <Nav className="me-auto">
             <Link to="/react-sw-api/ships">Ships</Link>
-            <Link to="/react-sw-api/character">Characters</Link>
+            <Link to="/react-sw-api/characters">Characters</Link>
             <Link to="/react-sw-api/planets">Planets</Link>
           </Nav>
         </Container>
