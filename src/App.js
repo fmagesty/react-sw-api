@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/react-sw-api/">
             <Link to="/react-sw-api/">Home</Link>
           </Navbar.Brand>
           <Nav className="me-auto">
