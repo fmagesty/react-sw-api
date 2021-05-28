@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <Link to="/">Home</Link>
           </Navbar.Brand>
           <Nav className="me-auto">
