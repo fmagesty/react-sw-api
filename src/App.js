@@ -14,8 +14,8 @@ function App() {
     <Router basename="/react-sw-api">
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="/react-sw-api">
-            <Link to="/react-sw-api">Home</Link>
+          <Navbar.Brand href="/">
+            <Link to="/">Home</Link>
           </Navbar.Brand>
           <Nav className="me-auto">
             <Link to="/react-sw-api/ships">Ships</Link>
@@ -26,7 +26,7 @@ function App() {
       </Navbar>
       <div className="App">
         <Switch>
-          <Route exact path="/react-sw-api">
+          <Route exact path="/">
             <Homepage />
             <Footer />
           </Route>
