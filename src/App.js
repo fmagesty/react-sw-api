@@ -30,15 +30,15 @@ function App() {
             <Homepage />
             <Footer />
           </Route>
-          <Route path="/#react-sw-api/ships">
+          <Route path="/#ships">
             <Ships />
             <Footer />
           </Route>
-          <Route path="/#react-sw-api/characters">
+          <Route path="/#characters">
             <Characters />
             <Footer />
           </Route>
-          <Route path="/#react-sw-api/planets">
+          <Route path="/#planets">
             <Planets />
             <Footer />
           </Route>
