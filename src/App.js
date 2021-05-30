@@ -18,9 +18,9 @@ function App() {
             <Link to="/react-sw-api">Home</Link>
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Link to={process.env.PUBLIC_URL + "/ships"}>Ships</Link>
-            <Link to={process.env.PUBLIC_URL + "/characters"}>Characters</Link>
-            <Link to={process.env.PUBLIC_URL + "/planets"}>Planets</Link>
+            <Link to="/ships">Ships</Link>
+            <Link to="/characters">Characters</Link>
+            <Link to="/planets">Planets</Link>
           </Nav>
         </Container>
       </Navbar>
@@ -30,15 +30,15 @@ function App() {
             <Homepage />
             <Footer />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/react-sw-api/ships"}>
+          <Route path="/react-sw-api/ships">
             <Ships />
             <Footer />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/react-sw-api/characters"}>
+          <Route path="/react-sw-api/characters">
             <Characters />
             <Footer />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/react-sw-api/planets"}>
+          <Route path="/react-sw-api/planets">
             <Planets />
             <Footer />
           </Route>
