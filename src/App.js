@@ -38,7 +38,7 @@ function App() {
             <Characters />
             <Footer />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/react-sw-api/planets">}
+          <Route path={process.env.PUBLIC_URL + "/react-sw-api/planets"}>
             <Planets />
             <Footer />
           </Route>
