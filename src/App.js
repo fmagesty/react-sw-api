@@ -11,7 +11,7 @@ import Nav from "react-bootstrap/Nav";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-sw-api">
       <Navbar bg="primary" variant="dark">
         <Container>
           <Navbar.Brand href="/react-sw-api">
